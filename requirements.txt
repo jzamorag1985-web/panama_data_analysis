@@ -1,0 +1,15 @@
+# Visualización y gráficos
+# --------------------------------
+# Librería para generar gráficos y visualizaciones estáticas
+# como histogramas, gráficos de líneas o diagramas de dispersión.
+matplotlib>=3.10.7
+
+#calculos matematicos
+numpy>=2.4.3 
+
+#manejo de datos
+pandas>=3.0.1
+
+seaborn>=0.13.1
+
+plotly>=6.6.0
