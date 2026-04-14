@@ -1,0 +1,4 @@
+,qty_sold,sold_price,total_sales
+qty_sold,1.0,-0.0491,0.9997
+sold_price,-0.0491,1.0,0.9491
+total_sales,0.9997,0.9491,1.0
