@@ -1,6 +1,5 @@
 # panama_data_analysis
-Programa creado para documentar los procedimientos y códigos del Panama_Data_Analysis. Que es un sistema en python que consiste en analizar datos de venta, genera estadísticas, detecta patrones, crea visualizaciones y reportes automáticos.
-
+Sistema en Python que automatiza la carga, limpieza, análisis y visualización de datos, generando información clave para la toma de decisiones basada en datos.
 
 Arquitectura
 data/raw → data_loader → data/cleaned
@@ -19,12 +18,12 @@ Tecnologias
        NumPy
        SciPy
 
-Visualizacion de datos
+  Visualizacion de datos
        Matplotlib
        Seaborn
 
- Manejo de archivos y Sistema
-       OS para creacion automatica de carpetas dentro del sistema.  
+  Manejo de archivos y Sistema
+       OS para creacion automatica de carpetas dentro del sistema 
 
 Control de versiones 
 Git & GitHub.
@@ -65,30 +64,34 @@ pip install -r requirements.txt
 
  Se recomienda ejecutar los modulos en orden para garantizar el flujo correcto del procesamiento de datos.
 
-Flujo del Sistema
-
+Flujo del Sistema:
 Pipeline de procesamiento de datos.
 
-Carga de datos
+Carga de datos:
 El sistema lee el archivo original (Excel o CSV) desde la carpeta data/raw.
-Limpieza de datos
+
+Limpieza de datos:
 Se eliminan valores nulos, se normalizan columnas y se preparan los datos para análisis.
-Procesamiento estadístico
+
+Procesamiento estadístico:
 Se calculan correlaciones, distribuciones, percentiles y detección de outliers.
-Generación de visualizaciones
+
+Generación de visualizaciones:
 Se crean gráficos como histogramas, boxplots y mapas de calor.
-Exportación de resultados
+
+Exportación de resultados:
 Los resultados se guardan en archivos CSV y gráficos en la carpeta output/.
-Generación de reporte (opcional)
+
+Generación de reporte:
 Se consolidan los resultados en un reporte final (PDF).
 
 Casos de uso:
-Analisis de ventas.
-Evaluacion de desempeño comercial.
-Evaluación de desempeño comercial
-Identificación de patrones y tendencias
-Detección de valores atípicos (outliers)
-Soporte para toma de decisiones empresariales.
+1.Analisis de ventas
+2.Evaluacion de desempeño comercial
+3.Evaluación de desempeño comercial
+4.Identificación de patrones y tendencias
+5.Detección de valores atípicos (outliers)
+6.Soporte para toma de decisiones empresariales
 
 Entrada y Salida del sistema
   Entrada:
@@ -99,6 +102,50 @@ Entrada y Salida del sistema
   Salida
     Archivos CSV con resultados estadísticos
     Gráficos en formato PNG (Opcional) reporte en PDF
+
+ El sistema sigue una arquitectura tipo pipeline, donde cada módulo procesa la información de forma secuencial, permitiendo escalabilidad y reutilización del código.
+
+
+Seguridad
+1.Validacion de integridad de los datos cargados
+
+2.Control de tipo de datos (numericos y categoricos)
+
+3.Manejo seguro de rutas de archivos
+
+4.Prevencion de errores en datasets
+
+Futuras Mejoras
+1.Dashboard inetractivo con visualizacion en tiempo real
+
+2.Integracion con herramientas de BI
+
+3.Automatizacion completa del pipeline de datos
+
+4.Implementacion de machine learning para predicciones
+
+5.Generacion automatica de reportes en PDF
+
+6.Integracion con bases de datos(MySQL/PosgreSQL)
+
+
+Versionado
+Este proyecto sigue el estandar SemVer:
+MAJOR: Cambios grandes o incompatibles
+MINOR:Nuevas funcionalidades
+PATCH:Correcciones y mejoras
+Version actual: v1.0.0
+
+Autores
+
+Desarrollado por el equipo de Big Data y Ciencia de Datos:
+**Natalia Barrelier**
+**Adrian Herazo**
+**Denis Pineda**
+**Juan Rivera**
+**Johana Zamora**
+
+
 
 
 
